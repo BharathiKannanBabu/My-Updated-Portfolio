@@ -32,7 +32,7 @@ const Navbar = () => {
         >
             <div className="container flex items-center justify-between">
                 <a
-                    className="text-xl font-bold text-primary flex items-center"
+                    className="text-xl md:text-xl font-bold text-primary flex items-center"
                     href="#hero"
                 >
                     <span className="relative z-10">
@@ -59,12 +59,12 @@ const Navbar = () => {
 
                 <button
                     onClick={() => setIsMenuOpen((prev) => !prev)}
-                    className="md:hidden p-2 text-foreground z-50"
+                    className="md:hidden p-2 text-foreground z-50 mr-4"
                     aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
                 >
-                    {isMenuOpen ? <X size={24} /> : <Menu size={24} />}{" "}
+                    {isMenuOpen ? <X size={20} /> : <Menu size={20} />}{" "}
                 </button>
-
+                <ThemeToggle className="md:hidden" />
                 <div
                     className={cn(
                         "fixed inset-0 bg-background/95 backdroup-blur-md z-40 flex flex-col items-center justify-center",

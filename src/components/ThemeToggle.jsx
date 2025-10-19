@@ -31,8 +31,8 @@ const ThemeToggle = () => {
     return (
         <button
             onClick={toggleTheme}
-            className={cn("fixed ml-1 max-sm:hidden right-5 z-50 rounded-full transition-colors duration-300",
-                "focus:outline-hidden cursor-pointer")}
+            className={cn("fixed ml-1 right-5 z-50 rounded-full transition-colors duration-300",
+                "cursor-pointer")}
         >
             {isDarkMode ? <Sun className='h-6 w-6 text-yellow-400' /> : <Moon className='h-6 w-6 text-blue-900' />}
         </button>
