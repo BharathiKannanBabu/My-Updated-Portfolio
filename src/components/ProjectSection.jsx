@@ -1,11 +1,15 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import cttiAppImg from '../assets/projects/cttiAppPic.jpg';
+import githubAppImg from '../assets/projects/githubPic.jpg';
+import chatAppImg from '../assets/projects/chatAppPic.jpg'
+
 
 const projects = [
     {
         id: 1,
         title: "Github Application",
         description: "A full-featured GitHub-like platform built using the MERN stack — enabling users to manage repositories, follow developers, and explore collaborative coding.",
-        image: "/src/assets/projects/githubPic.jpg",
+        image: githubAppImg,
         tags: ["React", "TailwindCSS", "Express.js"],
         demoUrl: "https://mern-github-app-gpc4.onrender.com/",
         githubUrl: "https://github.com/BharathiKannanBabu/mern-github-app",
@@ -15,7 +19,7 @@ const projects = [
         title: "Item Store Application",
         description:
             "An interactive item management system using the MERN stack — supporting CRUD operations, search functionality, and a responsive design for smooth user experience.",
-        image: "/src/assets/projects/cttiAppPic.jpg",
+        image: cttiAppImg,
         tags: ["React", "Node.js", "MongoDB"],
         demoUrl: "https://ctti-items-stroe.onrender.com/",
         githubUrl: "https://github.com/BharathiKannanBabu/CTTI-Items-stroe",
@@ -25,7 +29,7 @@ const projects = [
         title: "Chat Application",
         description:
             "A modern chat application developed with the MERN stack and Socket.io, providing real-time messaging, user authentication, and sleek UI similar to WhatsApp.",
-        image: "/src/assets/projects/chatAppPic.jpg",
+        image: chatAppImg,
         tags: ["React", "Node.js", "Socket.io"],
         demoUrl: "https://fullstack-chat-app2.onrender.com/",
         githubUrl: "https://github.com/BharathiKannanBabu/mern-chat-app",

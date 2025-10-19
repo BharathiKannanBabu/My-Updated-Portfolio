@@ -1,6 +1,7 @@
 import { ArrowDown, Github, Linkedin, Mail, FileText } from "lucide-react";
 import heroImage from "../assets/heroImage.png";
 import { Typewriter } from "react-simple-typewriter";
+import resume from '../assets/files/Bharathi Kannan-Full_Stack_Developer-Resume.pdf'
 
 const HeroSection = () => {
     return (
@@ -83,7 +84,7 @@ const HeroSection = () => {
                             </a>
 
                             <a
-                                href="/src/assets/files/Bharathi Kannan-Full_Stack_Developer-Resume.pdf"
+                                href={resume}
                                 download="Bharathi Kannan-Full_Stack_DEveloper-Resume"
                                 className="p-2 rounded-full border border-primary hover:bg-primary hover:text-white text-primary transition-all duration-300"
                                 title="Resume"
@@ -100,7 +101,7 @@ const HeroSection = () => {
                         <img
                             src={heroImage}
                             alt="Bharathi Kannan"
-                            className="w-full h-full object-cover animate-pulse-subtle"
+                            className="w-full h-full object-cover"
                         />
                     </div>
                 </div>
