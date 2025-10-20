@@ -39,14 +39,17 @@ const ContactSection = () => {
             const data = await res.json();
 
             if (data.success) {
-                toast.success("Message sent successfully!");
                 e.target.reset();
                 navigate('/success')
             } else {
-                toast.error("Something went wrong. Please try again later.");
+                toast.error("Something went wrong. Please try again later.", {
+                    duration: 3000
+                });
             }
         } catch (error) {
-            toast.error("Network issue or API error.");
+            toast.error("Network issue or API error.", {
+                duration: 3000
+            });
             console.log(error);
         }
 
