@@ -17,7 +17,7 @@ const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              Ambitious MERN Stack Developer with 2.5 years of IT industry
+              Ambitious MERN Stack Developer with 2.7 years of IT industry
               experience in networking and desktop support, now transitioning
               into <strong>Full-Stack Development</strong>. Proficient in
               building scalable web applications using MongoDB, Express.js,
