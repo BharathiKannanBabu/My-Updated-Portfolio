@@ -11,7 +11,6 @@ const projects = [
       "A full-featured GitHub-like platform built using the MERN stack — enabling users to manage repositories, follow developers, and explore collaborative coding.",
     image: githubAppImg,
     tags: ["React", "TailwindCSS", "Express.js"],
-    demoUrl: "https://mern-github-app-gpc4.onrender.com/",
     githubUrl: "https://github.com/BharathiKannanBabu/mern-github-app",
   },
   {
@@ -21,7 +20,6 @@ const projects = [
       "An interactive item management system using the MERN stack — supporting CRUD operations, search functionality, and a responsive design for smooth user experience.",
     image: cttiAppImg,
     tags: ["React", "Node.js", "MongoDB"],
-    demoUrl: "https://ctti-items-stroe.onrender.com/",
     githubUrl: "https://github.com/BharathiKannanBabu/CTTI-Items-stroe",
   },
   {
@@ -87,7 +85,7 @@ const ProjectsSection = () => {
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
-                      <ExternalLink size={20} />
+                      {project.demoUrl && <ExternalLink size={20} />}
                     </a>
                     <a
                       href={project.githubUrl}
