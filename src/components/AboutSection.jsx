@@ -17,20 +17,11 @@ const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              Ambitious MERN Stack Developer with 2.7 years of IT industry
-              experience in networking and desktop support, now transitioning
-              into <strong>Full-Stack Development</strong>. Proficient in
-              building scalable web applications using MongoDB, Express.js,
-              React.js, and Node.js. Experienced in designing RESTful APIs,
-              implementing secure JWT-based authentication, and developing
-              responsive, user-focused interfaces.
+              I'm a Full Stack Developer specializing in the MERN stack, with 2.10 years of professional experience building web applications that are fast, scalable, and easy to use. On the frontend, I focus on creating intuitive, responsive interfaces using React, Redux, and modern JavaScript (ES6+), paying close attention to performance and user experience. On the backend, I design and build secure, well-structured RESTful APIs with Node.js and Express, handling authentication, data validation, and business logic with clean, maintainable code.
             </p>
 
             <p className="text-muted-foreground">
-              I’m passionate about creating elegant and efficient solutions to
-              complex problems. Whether developing scalable APIs or intuitive
-              mobile interfaces, I focus on clean code, performance, and
-              seamless user experiences across all platforms.
+              I use MongoDB for flexible, scalable data storage, and I'm comfortable working across the entire stack — from database schema design to deployment. I follow best practices like modular code architecture, proper error handling, and version control with Git, and I'm always looking to improve the quality and efficiency of the applications I build.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
