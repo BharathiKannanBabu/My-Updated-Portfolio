@@ -1,7 +1,7 @@
 import { ArrowDown, Github, Linkedin, Mail, FileText } from "lucide-react";
 import heroImage from "../assets/heroImage.png";
 import { Typewriter } from "react-simple-typewriter";
-import resume from "../assets/files/Bharathikannan-MERN_Stack_Developer-Resume.pdf";
+import resume from "../assets/files/Bharathi Kannan_Full-Stack-Developer_Resume.pdf";
 
 const HeroSection = () => {
   return (

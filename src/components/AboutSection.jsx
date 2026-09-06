@@ -1,5 +1,5 @@
 import { Briefcase, Code, User } from "lucide-react";
-import resume from "../assets/files/Bharathikannan-MERN_Stack_Developer-Resume.pdf";
+import resume from "../assets/files/Bharathi Kannan_Full-Stack-Developer_Resume.pdf";
 
 const AboutSection = () => {
   return (
@@ -17,11 +17,24 @@ const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              I'm a Full Stack Developer specializing in the MERN stack, with 2.10 years of professional experience building web applications that are fast, scalable, and easy to use. On the frontend, I focus on creating intuitive, responsive interfaces using React, Redux, and modern JavaScript (ES6+), paying close attention to performance and user experience. On the backend, I design and build secure, well-structured RESTful APIs with Node.js and Express, handling authentication, data validation, and business logic with clean, maintainable code.
+              I'm a Full Stack Developer specializing in the MERN stack, with
+              2.6+ years of professional experience building web applications
+              that are fast, scalable, and easy to use. On the frontend, I focus
+              on creating intuitive, responsive interfaces using React, Redux,
+              and modern JavaScript (ES6+), paying close attention to
+              performance and user experience. On the backend, I design and
+              build secure, well-structured RESTful APIs with Node.js and
+              Express, handling authentication, data validation, and business
+              logic with clean, maintainable code.
             </p>
 
             <p className="text-muted-foreground">
-              I use MongoDB for flexible, scalable data storage, and I'm comfortable working across the entire stack — from database schema design to deployment. I follow best practices like modular code architecture, proper error handling, and version control with Git, and I'm always looking to improve the quality and efficiency of the applications I build.
+              I use MongoDB for flexible, scalable data storage, and I'm
+              comfortable working across the entire stack — from database schema
+              design to deployment. I follow best practices like modular code
+              architecture, proper error handling, and version control with Git,
+              and I'm always looking to improve the quality and efficiency of
+              the applications I build.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
