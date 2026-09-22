@@ -44,13 +44,14 @@ const HeroSection = () => {
           </h2>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto md:mx-0 opacity-0 animate-fade-in-delay-3">
-            I craft powerful web and mobile applications using the{" "}
-            <strong>MERN stack</strong> — MongoDB, Express.js, React, and
-            Node.js — along with <strong>React Native</strong> for
-            cross-platform mobile app development. From building scalable APIs
-            to creating responsive, user-friendly interfaces, I focus on
-            performance, reliability, and clean design that delivers seamless
-            digital experiences across web and mobile platforms.
+            I’m a <strong>Full Stack Developer</strong> specializing in the{" "}
+<strong>MERN stack</strong> — MongoDB, Express.js, React, and Node.js. I
+build <strong>modern, scalable web applications</strong> with{" "}
+<strong>robust APIs</strong>, <strong>responsive user interfaces</strong>,{" "}
+<strong>secure authentication</strong>, and{" "}
+<strong>efficient database solutions</strong>. I focus on writing{" "}
+<strong>clean, maintainable code</strong> and delivering{" "}
+<strong>high-performance digital experiences</strong>.
           </p>
 
           {/* Buttons + Social Links */}
