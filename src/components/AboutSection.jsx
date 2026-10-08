@@ -18,7 +18,7 @@ const AboutSection = () => {
 
             <p className="text-muted-foreground">
               I'm a Full Stack Developer specializing in the MERN stack, with
-              2.6+ years of professional experience building web applications
+              3 years of professional experience building web applications
               that are fast, scalable, and easy to use. On the frontend, I focus
               on creating intuitive, responsive interfaces using React, Redux,
               and modern JavaScript (ES6+), paying close attention to
