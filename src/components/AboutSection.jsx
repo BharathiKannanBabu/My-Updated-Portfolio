@@ -17,36 +17,28 @@ const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-<<<<<<< HEAD
-              I'm a Full Stack Developer specializing in the MERN stack, with 3
-              years of professional experience building web applications that
-              are fast, scalable, and easy to use. On the frontend, I focus on
-              creating intuitive, responsive interfaces using React, Redux, and
-              modern JavaScript (ES6+), paying close attention to performance
-              and user experience. On the backend, I design and build secure,
-              well-structured RESTful APIs with Node.js and Express, handling
-              authentication, data validation, and business logic with clean,
-              maintainable code.
-=======
-              I'm a Full Stack Developer specializing in the MERN stack, with
-              3 years of professional experience building web applications
-              that are fast, scalable, and easy to use. On the frontend, I focus
-              on creating intuitive, responsive interfaces using React, Redux,
-              and modern JavaScript (ES6+), paying close attention to
+              I’m a Full Stack Developer specializing in the MERN stack, with{" "}
+              <strong>3 years of hands-on experience</strong> building modern,
+              scalable, and user-focused web applications. I work extensively
+              with React, Redux, JavaScript (ES6+), Node.js, Express.js, and
+              MongoDB to develop complete end-to-end solutions. On the frontend,
+              I build responsive and intuitive interfaces with a strong focus on
               performance and user experience. On the backend, I design and
-              build secure, well-structured RESTful APIs with Node.js and
-              Express, handling authentication, data validation, and business
-              logic with clean, maintainable code.
->>>>>>> ec1430e4e90bd1869877eb72921a7fcb0e23d73c
+              develop secure, well-structured RESTful APIs, implementing
+              authentication, data validation, business logic, and efficient API
+              integration.
             </p>
 
             <p className="text-muted-foreground">
-              I use MongoDB for flexible, scalable data storage, and I'm
-              comfortable working across the entire stack — from database schema
-              design to deployment. I follow best practices like modular code
-              architecture, proper error handling, and version control with Git,
-              and I'm always looking to improve the quality and efficiency of
-              the applications I build.
+              I’m comfortable working across the entire development lifecycle,
+              from designing database schemas and developing APIs to testing,
+              debugging, and deployment. I follow clean coding practices,
+              modular architecture, proper error handling, and version control
+              using Git and GitHub. I also have experience with modern
+              development and deployment tools such as Docker and CI/CD
+              workflows. I enjoy solving real-world problems, learning new
+              technologies, and continuously improving the quality, performance,
+              and reliability of the applications I build.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
