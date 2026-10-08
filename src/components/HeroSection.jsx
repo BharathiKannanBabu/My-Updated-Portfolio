@@ -45,6 +45,7 @@ const HeroSection = () => {
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto md:mx-0 opacity-0 animate-fade-in-delay-3">
             I’m a <strong>Full Stack Developer</strong> specializing in the{" "}
+<<<<<<< HEAD
             <strong>MERN stack</strong> — MongoDB, Express.js, React, and
             Node.js. I build <strong>modern, scalable web applications</strong>{" "}
             with <strong>robust APIs</strong>,{" "}
@@ -53,6 +54,15 @@ const HeroSection = () => {
             <strong>efficient database solutions</strong>. I focus on writing{" "}
             <strong>clean, maintainable code</strong> and delivering{" "}
             <strong>high-performance digital experiences</strong>.
+=======
+<strong>MERN stack</strong> — MongoDB, Express.js, React, and Node.js. I
+build <strong>modern, scalable web applications</strong> with{" "}
+<strong>robust APIs</strong>, <strong>responsive user interfaces</strong>,{" "}
+<strong>secure authentication</strong>, and{" "}
+<strong>efficient database solutions</strong>. I focus on writing{" "}
+<strong>clean, maintainable code</strong> and delivering{" "}
+<strong>high-performance digital experiences</strong>.
+>>>>>>> ec1430e4e90bd1869877eb72921a7fcb0e23d73c
           </p>
 
           {/* Buttons + Social Links */}
