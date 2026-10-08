@@ -17,15 +17,15 @@ const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              I'm a Full Stack Developer specializing in the MERN stack, with
-              2.6+ years of professional experience building web applications
-              that are fast, scalable, and easy to use. On the frontend, I focus
-              on creating intuitive, responsive interfaces using React, Redux,
-              and modern JavaScript (ES6+), paying close attention to
-              performance and user experience. On the backend, I design and
-              build secure, well-structured RESTful APIs with Node.js and
-              Express, handling authentication, data validation, and business
-              logic with clean, maintainable code.
+              I'm a Full Stack Developer specializing in the MERN stack, with 3
+              years of professional experience building web applications that
+              are fast, scalable, and easy to use. On the frontend, I focus on
+              creating intuitive, responsive interfaces using React, Redux, and
+              modern JavaScript (ES6+), paying close attention to performance
+              and user experience. On the backend, I design and build secure,
+              well-structured RESTful APIs with Node.js and Express, handling
+              authentication, data validation, and business logic with clean,
+              maintainable code.
             </p>
 
             <p className="text-muted-foreground">
