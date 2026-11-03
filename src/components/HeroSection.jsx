@@ -46,7 +46,7 @@ const HeroSection = () => {
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto md:mx-0 opacity-0 animate-fade-in-delay-3">
             I’m a <strong>Full Stack Developer</strong> specializing in the{" "}
             <strong>MERN stack</strong> — MongoDB, Express.js, React, and
-            Node.js. With <strong>3 years of hands-on experience</strong>, I
+            Node.js. With <strong>3+ years of hands-on experience</strong>, I
             build <strong>modern, scalable web applications</strong> with{" "}
             <strong>responsive user interfaces</strong>,{" "}
             <strong>robust REST APIs</strong>,{" "}
